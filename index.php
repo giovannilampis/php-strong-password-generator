@@ -54,18 +54,23 @@ if (isset($_GET['length'])) {
 
             <div class="row">
 
-                <label for="lenght" class="col-8">Insert password length</label>
+                <label for="lenght" class="col-6">Insert password length</label>
 
-                <div class="col-4">
+                <div class="col-2">
 
                     <input type="number" name="length" id="length">
 
                 </div>
 
+                <button class="col-4" type="submit">Generate Password</button>
 
             </div>
 
         </form>
+
+        <p>La password è:
+            <?php echo createPassword($pwLength) ?>
+        </p>
     </div>
 
 
