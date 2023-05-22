@@ -1,5 +1,10 @@
 <?php
+function createPassword($pwLength)
+{
 
-include './functions.php'
+    $password = '';
 
-    ?>
+
+}
+
+?>

@@ -21,6 +21,8 @@ Dare all’utente anche la possibilità di permettere o meno la ripetizione di c
 
 <?php
 
+include './functions.php';
+
 if (isset($_GET['length'])) {
 
     $pwLength = $_GET['length'];
