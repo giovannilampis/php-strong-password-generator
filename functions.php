@@ -24,6 +24,8 @@ function createPassword($pwLength)
 
     }
 
+    return $password;
+
 }
 
 ?>

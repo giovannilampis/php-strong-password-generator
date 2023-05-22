@@ -27,7 +27,7 @@ if (isset($_GET['length'])) {
 
     $pwLength = $_GET['length'];
 
-    $response = createPassword($pwLength);
+    // $response = createPassword($pwLength);
 }
 
 ?>
