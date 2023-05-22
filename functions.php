@@ -14,6 +14,14 @@ function createPassword($pwLength)
 
     $allCharacters = $letters . strtoupper($letters) . $numbers . $specials;
 
+    while (strlen($password) < $pwLength) {
+
+        $index = rand(0, strlen($allCharacters));
+
+        $character = $allCharacters[$index];
+
+    }
+
 }
 
 ?>
