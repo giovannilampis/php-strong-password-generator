@@ -20,6 +20,8 @@ function createPassword($pwLength)
 
         $character = $allCharacters[$index];
 
+        $password .= $character;
+
     }
 
 }
