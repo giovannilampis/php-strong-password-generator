@@ -14,11 +14,11 @@
 
         <div class="row">
 
-            <label for=""></label>
+            <label for="lenght" class="col-8">Insert password length</label>
 
-            <div>
+            <div class="col-4">
 
-                <input type="number">
+                <input type="number" name="length" id="length">
 
             </div>
 
