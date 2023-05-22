@@ -32,8 +32,6 @@ if (isset($_GET['length'])) {
 
 ?>
 
-
-
 <!DOCTYPE html>
 <html lang="en">
 
@@ -69,7 +67,9 @@ if (isset($_GET['length'])) {
         </form>
 
         <p>La password è:
-            <?php echo createPassword($pwLength) ?>
+            <?php if (isset($_GET['length'])) {
+                echo createPassword($pwLength);
+            } ?>
         </p>
     </div>
 
