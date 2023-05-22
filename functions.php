@@ -10,6 +10,10 @@ function createPassword($pwLength)
 
     $specials = '!£$%&/()=?^+*@#\|';
 
+    // create a string in which all characters are present
+
+    $allCharacters = $letters . strtoupper($letters) . $numbers . $specials;
+
 }
 
 ?>
