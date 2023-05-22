@@ -24,6 +24,8 @@ Dare all’utente anche la possibilità di permettere o meno la ripetizione di c
 if (isset($_GET['length'])) {
 
     $pwLength = $_GET['length'];
+
+    $response = createPassword($pwLength);
 }
 
 ?>
